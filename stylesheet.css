@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+}
+header{
+    background-color: rgb(57, 55, 59);
+    width: auto;
+    height: 50px;
+    position: sticky;
+    top: 0%;
+    box-shadow: 0 3px 5px gray;
+}
+#signup{
+    background-color: darkorange;
+    width: 100px;
+    height: 35px;
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    right: 150px;
+    border-radius: 20px;
+    bottom: 5px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+
+}
+#signup:hover{
+    background-color: rgb(93, 124, 124);
+}
+.tit{
+    font-size: larger;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    font-family: sans-serif;
+    font-size: 100;
+    font-weight: 600;
+    color: rgb(243, 243, 243);
+    text-transform: uppercase;}
+    body{
+        background-image: url(backg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .list{
+        display: inline-block;
+        position: absolute;
+        top: 15px;
+       right: 600px;
+    }
+    li{
+        text-shadow: 2px 1px 5px orange;
+        display: inline;
+        padding: 20px;
+        text-transform: uppercase;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+        text-decoration: underline 2px;
+        text-decoration-color: orange;
+        text-decoration-style: solid;
+        padding-bottom: 5px;
+        cursor: pointer;
+    }
+    li:hover{
+        color: orange;
+    }
+    input{
+        border: none;
+        background-color: transparent;
+        font-style: oblique;
+        font-family: sans-serif;
+        font-weight: 600;
+        font-size: larger;
+        border-bottom: solid rgb(160, 111, 152);
+        width: 300px;
+        position: relative;
+        left: 90px;
+        top: 40px;
+        outline: none;
+        box-sizing: border-box;
+        padding: 0%;
+    }
+    section{
+        background-color:transparent;
+        box-sizing: border-box;
+        height: 200px;
+        display: inline-block;
+        padding-top: 0;
+        position: absolute;
+        right: 35%;
+        left: 35%;
+        top: 200px;
+        width: 450px;
+        box-shadow: 0 1px 7px rebeccapurple;
+    }
+    #login-btn{
+        position: absolute;
+        top: 130px;
+        left: 189px;
+        border: none;
+        background: green;
+        padding: 15px 20px 15px 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+        opacity: 0.8;
+        color: white;
+        outline: none;
+    }
+    form{
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        padding: 0%;
+        margin: 0%;
+    }
+    #login-btn:hover{
+ background-color: rgb(29, 78, 29);
+ opacity: 0.9;
+ cursor: pointer;
+    }
+    input::placeholder{
+        color: rgb(242, 248, 242);
+        text-align: center;
+        padding-bottom: 7px;
+        letter-spacing: 5px;
+        font-family: sans-serif;
+        font-style: normal;
+        text-shadow: 0 2px 4px rgb(235, 170, 231);
+        box-sizing: border-box;
+    }
